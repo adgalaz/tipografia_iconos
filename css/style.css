@@ -1,0 +1,95 @@
+* {
+  margin: 0px; /*eliminar margin que viene por defecto*/
+  padding: 0px; /*eliminar padding que viene por defecto*/
+  text-align: center;
+}
+
+header {
+  margin: 100px auto; /*centrar y dar espacio desde el arriba*/
+  width: 800px;
+  height: 160px;
+}
+
+div.box {
+  width: 155px;
+  height: 155px;
+  float: left;
+}
+
+h3.texto {
+  font-family: 'Lobster', cursive;
+  opacity: 0.8;
+  padding: 5px;
+}
+
+p.texto {
+  font-family: 'Indie Flower', cursive;
+  font-size: 14px;
+  opacity: 0.8;
+  padding: 5px;
+}
+
+div.box:hover{
+  height: 180px;
+  cursor: pointer;
+}
+
+div.box:hover h3.texto{
+  padding-top: 15px;
+  cursor: pointer;
+}
+
+div.box:hover p.icono{
+  padding-top: 15px;
+  cursor: pointer;
+}
+
+.fa-star-o {
+  color: #FFC300;
+  opacity: 0.5;
+  padding-top: 15px;
+}
+
+.fa-apple {
+  color: #02B25F;
+  opacity: 0.5;
+  padding-top: 15px;
+}
+
+.fa-heart {
+  color: #DC042B;
+  opacity: 0.5;
+  padding-top: 15px;
+}
+
+.fa-rebel {
+  color: #005B96;
+  opacity: 0.5;
+  padding-top: 15px;
+}
+
+.fa-sun-o {
+  color: #FF5733;
+  opacity: 0.5;
+  padding-top: 15px;
+}
+
+#firth {
+  background-color: rgba(108, 122, 255, 0.5);
+}
+
+#second {
+  background-color: rgba(252, 182, 231, 0.5);
+}
+
+#third{
+  background-color: rgba(175, 248, 255, 0.5);
+}
+
+#fourth{
+  background-color: rgba(162, 172, 255, 0.5);
+}
+
+#fifth{
+  background-color: rgba(85, 234, 255, 0.5);
+}
